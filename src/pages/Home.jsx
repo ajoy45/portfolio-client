@@ -7,7 +7,7 @@ import { Zoom } from 'react-awesome-reveal';
 import Typewriter from 'typewriter-effect';
 const Home = () => {
     return (
-        <div className='container mx-auto md:flex justify-between items-center py-12'>
+        <div className=' md:flex justify-between items-center py-12'>
             <div className='text-center md:text-start'>
                 <h1 className='font-extrabold text-6xl leading-relaxed'>I'm <br />AJOY <br />BISWAS</h1>
 

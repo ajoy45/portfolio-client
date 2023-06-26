@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav className=' bg-[#22222a] py-2'>
-            <div className="navbar container mx-auto ">
+            <div className="navbar  ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
