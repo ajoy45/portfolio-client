@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from '../shared/Navbar';
-import Home from '../pages/Home';
-import About from '../pages/About';
-import Skills from '../pages/Skills';
+
+import { Outlet } from 'react-router-dom';
+import Footer from '../shared/Footer';
 
 const MainLayout = () => {
     return (
-        <div className='container mx-auto'>
-        <Navbar></Navbar>
-        <Home></Home>
-        <About></About>
-        <Skills></Skills>
-       
+        <div className=''>
+            <Navbar></Navbar>
+            <div className='py-24'>
+            <Outlet></Outlet>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import { Slide } from 'react-awesome-reveal';
 const About = () => {
     return (
        <Slide duration={6000} direction='left'>
-         <div className=' md:flex justify-between items-center bg-[#494b50] rounded-tl-[150px] rounded-br-[150px] py-24 gap-8 lg:gap-0 mb-6'>
+         <div className='container mx-auto md:flex justify-between items-center bg-[#494b50] rounded-tl-[150px] rounded-br-[150px] py-24  gap-8 lg:gap-0 mb-6'>
             <div className='md:relative px-12'>
                 <div className='hidden lg:block'>
                     <img className='w-[70%] h-[70%] rounded-2xl bg-[#2d2a2a] ' src={img} alt="" />
