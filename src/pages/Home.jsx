@@ -9,6 +9,7 @@ import About from './About';
 import Skills from './Skills'
 import Portfolio from './Portfolio'
 import Service from './Service';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -45,6 +46,7 @@ const Home = () => {
         <Skills></Skills>
         <Portfolio></Portfolio>
         <Service></Service>
+        <Contact></Contact>
         </>
         
       

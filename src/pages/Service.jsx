@@ -10,7 +10,7 @@ const Service = () => {
     
     return (
         <Slide duration={6000} direction='right'>
-            <div className='container mx-auto bg-[#494b50] rounded-tl-[150px] rounded-br-[150px]'>
+            <div className='container mx-auto bg-[#494b50] rounded-tl-[150px] rounded-br-[150px] mb-6'>
             <h1 className='text-3xl pt-12 text-center'>service</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-6 p-12 '>
                 <div className='text-center border border-1 border-white p-6 hover:bg-[#46271a]'>
