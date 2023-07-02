@@ -2,7 +2,7 @@ import React from 'react';
 import {  Zoom} from 'react-awesome-reveal';
 
 const SkillCard = ({ skill }) => {
-    console.log(skill)
+    // console.log(skill)
     return (
         <Zoom duration={1000} >
             <>

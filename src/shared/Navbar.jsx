@@ -13,7 +13,7 @@ const Navbar = () => {
                         <ul tabIndex={0} className="dropdown-content mt-3 z-[1] p-2 shadow bg-slate-600 rounded-box w-52">
                             <li className='mr-12 cursor-pointer'><a>About</a></li>
                             <Link to='/details'> <li className='mr-12 cursor-pointer'><a>Projects</a></li></Link>
-                            <li className='mr-12 cursor-pointer mb-4'><a>Contact</a></li>
+                            <Link to='/contact'><li className='mr-12 cursor-pointer'><a>Contact</a></li></Link>
                             <li ><a className="px-4 py-1 rounded-xl bg-[#ff451b] uppercase text-xl">Resume</a></li>
                         </ul>
                     </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
                     <ul className=" menu-horizontal px-1 text-xl ">
                        <Link to='/about'> <li className='mr-12 cursor-pointer'><a >About</a></li></Link>
                       <Link to='/details'> <li className='mr-12 cursor-pointer'><a>Projects</a></li></Link>
-                        <li className='mr-12 cursor-pointer'><a>Contact</a></li>
+                        <Link to='/contact'><li className='mr-12 cursor-pointer'><a>Contact</a></li></Link>
                         <li ><a className="px-4 py-1 rounded-xl bg-[#ff451b] uppercase text-xl">Resume</a></li>
                     </ul>
 
