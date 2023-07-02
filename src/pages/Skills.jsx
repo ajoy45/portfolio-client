@@ -6,23 +6,23 @@ import { Slide } from 'react-awesome-reveal';
 const Skills = () => {
     const [skills, setSkills] = useState([]);
     const handelAll = () => {
-        axios.get('http://localhost:5000/skills')
+        axios.get('https://portfolio-server-theta-blush.vercel.app/skills')
             .then(data => setSkills(data.data))
     }
     const handelFrontEnd = () => {
-        axios.get('http://localhost:5000/frontend')
+        axios.get('https://portfolio-server-theta-blush.vercel.app/frontend')
             .then(data => setSkills(data.data))
     }
     const handelBackEnd = () => {
-        axios.get('http://localhost:5000/backend')
+        axios.get('https://portfolio-server-theta-blush.vercel.app/backend')
             .then(data => setSkills(data.data))
     }
     const handelTools = () => {
-        axios.get('http://localhost:5000/tools')
+        axios.get('https://portfolio-server-theta-blush.vercel.app/tools')
             .then(data => setSkills(data.data))
     }
     useEffect(() => {
-        axios.get('http://localhost:5000/skills')
+        axios.get('https://portfolio-server-theta-blush.vercel.app/skills')
             .then(data => setSkills(data.data))
     }, [])
 

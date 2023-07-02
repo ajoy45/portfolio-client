@@ -24,7 +24,7 @@ const Navbar = () => {
                        <Link to='/about'> <li className='mr-12 cursor-pointer'><a >About</a></li></Link>
                       <Link to='/details'> <li className='mr-12 cursor-pointer'><a>Projects</a></li></Link>
                         <Link to='/contact'><li className='mr-12 cursor-pointer'><a>Contact</a></li></Link>
-                        <li ><a className="px-4 py-1 rounded-xl bg-[#ff451b] uppercase text-xl">Resume</a></li>
+                        <li ><a href='https://drive.google.com/file/d/1guqROH4G_VQmsw933G7Il3KuFMbZyXMK/view?usp=sharing' target='_blank' className="px-4 py-1 rounded-xl bg-[#ff451b] uppercase text-xl">Resume</a></li>
                     </ul>
 
                 </div>
